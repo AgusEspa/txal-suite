@@ -4,14 +4,22 @@ import java.util.List;
 
 public class Paragraph {
 	
-    private String paragraph;
+    final private String paragraph;
     private List<String> keyWords;
     
-    public Paragraph(final String text) {
+    public Paragraph(String text) {
         this.paragraph = text;
     }
     
     public String getParagraph() {
         return this.paragraph;
+    }
+
+    public List<String> getKeyWords() {
+        return keyWords;
+    }
+
+    public void setKeyWords(List<String> keyWords) {
+        this.keyWords = keyWords;
     }
 }
