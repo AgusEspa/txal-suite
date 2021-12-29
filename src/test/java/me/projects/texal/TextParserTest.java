@@ -5,6 +5,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @SpringBootTest
 public class TextParserTest {
 
@@ -15,7 +17,7 @@ public class TextParserTest {
 
     List<Paragraph> paragraphs = TextParser.parse(text);
 
-    // assertions
+    assertEquals(paragraphs.size(), 3);
 
     }
 }
