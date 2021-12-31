@@ -21,7 +21,18 @@ public class Paragraph {
     }
 
     public String getParagraph() {
-        return this.paragraph;
+        return paragraph;
     }
 
+    public void setParagraph(String paragraph) {
+        this.paragraph = paragraph;
+    }
+
+    public Set<Keyword> getKeywords() {
+        return keywords;
+    }
+
+    public void setKeywords(Keyword keyword) {
+        this.keywords.add(keyword);
+    }
 }
