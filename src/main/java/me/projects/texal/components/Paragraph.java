@@ -2,30 +2,26 @@ package me.projects.texal.components;
 
 import org.springframework.stereotype.Component;
 
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Component
 public class Paragraph {
 
     private String paragraph;
-    private List<String> keyWords;
+
+    private Set<Keyword> keywords;
 
     public Paragraph() {
     }
 
     public Paragraph(String paragraph) {
         this.paragraph = paragraph;
+        this.keywords = new HashSet();
     }
 
     public String getParagraph() {
         return this.paragraph;
     }
 
-    public List<String> getKeyWords() {
-        return keyWords;
-    }
-
-    public void setKeyWords(List<String> keyWords) {
-        this.keyWords = keyWords;
-    }
 }
