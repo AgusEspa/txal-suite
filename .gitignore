@@ -5,3 +5,6 @@ src/.DS_Store
 *.lst
 target/**
 *.iml
+mvnw.cmd
+mvnw
+HELP.md
