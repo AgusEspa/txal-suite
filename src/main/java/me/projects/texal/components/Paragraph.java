@@ -1,7 +1,10 @@
-package me.projects.texal;
+package me.projects.texal.components;
+
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class Paragraph {
 	
     final private String paragraph;

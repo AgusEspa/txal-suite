@@ -1,10 +1,14 @@
-package me.projects.texal;
+package me.projects.texal.services;
+
+import me.projects.texal.components.Paragraph;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class TextParser {
+@Service
+public class TextParserService {
     
     public static List<Paragraph> parse(final String text) {
 
