@@ -3,3 +3,4 @@
 src/.DS_Store
 .idea/uiDesigner.xml
 *.lst
+/target
