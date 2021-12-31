@@ -6,14 +6,17 @@ import java.util.List;
 
 @Component
 public class Paragraph {
-	
-    final private String paragraph;
+
+    private String paragraph;
     private List<String> keyWords;
-    
-    public Paragraph(String text) {
-        this.paragraph = text;
+
+    public Paragraph() {
     }
-    
+
+    public Paragraph(String paragraph) {
+        this.paragraph = paragraph;
+    }
+
     public String getParagraph() {
         return this.paragraph;
     }

@@ -11,6 +11,8 @@ public class Text {
 
     private List<Paragraph> paragraphs;
 
+    public Text() {}
+
     public Text(List<Paragraph> paragraphs) {
         this.paragraphs = paragraphs;
     }
