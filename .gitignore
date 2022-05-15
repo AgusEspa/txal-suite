@@ -1,12 +1,4 @@
 .idea
-.DS_Store
-src/.DS_Store
-.idea/uiDesigner.xml
 *.lst
-target/**
-*.iml
-mvnw.cmd
-mvnw
-src/main/.DS_Store
 *.DS_Store
 venv/**
