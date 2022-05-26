@@ -1,7 +1,7 @@
 import os
 
 
-def read_article(file_name):
+def read_article():
     file = open('./text.txt')
     filedata = file.readlines()
     article = filedata[0].split(". ")
