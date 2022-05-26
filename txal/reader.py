@@ -2,7 +2,7 @@ import os
 
 
 def read_article():
-    file = open('./text.txt')
+    file = open('./text.txt', 'r')
     filedata = file.readlines()
     article = filedata[0].split(". ")
     sentences = []
