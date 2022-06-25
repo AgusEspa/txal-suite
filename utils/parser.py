@@ -1,6 +1,8 @@
 def read_article(file_name):
-    file = open(file_name, "r")
-    file_data = file.readlines()
+
+    with open(file_name, "r") as file:
+        file_data = file.readlines()
+
     article = file_data[0].split(". ")
     sentences = []
 
